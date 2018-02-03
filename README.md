@@ -1,3 +1,3 @@
-#Image to Calendar Syncer
+# Image to Calendar Syncer
 
 WIP
