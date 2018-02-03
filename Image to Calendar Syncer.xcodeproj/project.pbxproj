@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EFAF251C79081CD6F6FC532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAFD4261B1983A1412CA19 /* AppDelegate.swift */; };
+		4EFAF364BD41EDCCB2F284E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAFBD2085A2DB81E8BDC8A /* Main.storyboard */; };
+		4EFAF797DA0B8C24A64F8428 /* Image_to_Calendar_SyncerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAFD1D663281A67DB39F46 /* Image_to_Calendar_SyncerUITests.swift */; };
+		4EFAF990EC834B3772FC9E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAF012639C6DDBB2368362 /* Assets.xcassets */; };
+		4EFAF9EFCC6D4277322BE27E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAF2A1CE453A7240CFFB8D /* ViewController.swift */; };
+		4EFAFCFE4DEB8BD4A18B9309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */; };
+		4EFAFD6050F05737315F47A4 /* Image_to_Calendar_SyncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAFA591105DAEC4AB55E77 /* Image_to_Calendar_SyncerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EFAF6EE9D301DCD2501956D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFAF5B01B42DBC090EF6B2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFAFB51DFDABAD7CEF857B5;
+			remoteInfo = "Image to Calendar Syncer";
+		};
+		4EFAFE233B32D5CA69C1849D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFAF5B01B42DBC090EF6B2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFAFB51DFDABAD7CEF857B5;
+			remoteInfo = "Image to Calendar Syncer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EFAF012639C6DDBB2368362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EFAF1E550F92427F8CCF98A /* Image to Calendar SyncerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image to Calendar SyncerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFAF2A1CE453A7240CFFB8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EFAF521F44CC55A24BEAC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		4EFAF69506722D15E71537F7 /* Image to Calendar SyncerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image to Calendar SyncerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFAF7CD2E79B18E40A7AA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EFAFA591105DAEC4AB55E77 /* Image_to_Calendar_SyncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_to_Calendar_SyncerTests.swift; sourceTree = "<group>"; };
+		4EFAFABE504426654CC99429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		4EFAFB997685DE86F295233C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EFAFC8B673ABD2D6D32EF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		4EFAFCBD0007E31834A8C96E /* Image to Calendar Syncer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image to Calendar Syncer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFAFD1D663281A67DB39F46 /* Image_to_Calendar_SyncerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_to_Calendar_SyncerUITests.swift; sourceTree = "<group>"; };
+		4EFAFD4261B1983A1412CA19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFAF0E96185E529D27EC536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAFBFAF4AF0495810904B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAFE9E532ACB5910B117A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EFAF877C074DDFBD476DEB3 /* Image to Calendar SyncerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAF521F44CC55A24BEAC08 /* Info.plist */,
+				4EFAFA591105DAEC4AB55E77 /* Image_to_Calendar_SyncerTests.swift */,
+			);
+			path = "Image to Calendar SyncerTests";
+			sourceTree = "<group>";
+		};
+		4EFAF8E697CA7A9FC0CD7301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAFCBD0007E31834A8C96E /* Image to Calendar Syncer.app */,
+				4EFAF69506722D15E71537F7 /* Image to Calendar SyncerTests.xctest */,
+				4EFAF1E550F92427F8CCF98A /* Image to Calendar SyncerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFAF9E9B64040EE38FA2479 = {
+			isa = PBXGroup;
+			children = (
+				4EFAF8E697CA7A9FC0CD7301 /* Products */,
+				4EFAFFA9EAF8C3CF7901CEF9 /* Image to Calendar Syncer */,
+				4EFAF877C074DDFBD476DEB3 /* Image to Calendar SyncerTests */,
+				4EFAFA5CBF8D77AD3419928C /* Image to Calendar SyncerUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFAFA5CBF8D77AD3419928C /* Image to Calendar SyncerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAFC8B673ABD2D6D32EF06 /* Info.plist */,
+				4EFAFD1D663281A67DB39F46 /* Image_to_Calendar_SyncerUITests.swift */,
+			);
+			path = "Image to Calendar SyncerUITests";
+			sourceTree = "<group>";
+		};
+		4EFAFFA9EAF8C3CF7901CEF9 /* Image to Calendar Syncer */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAFABE504426654CC99429 /* Info.plist */,
+				4EFAF012639C6DDBB2368362 /* Assets.xcassets */,
+				4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */,
+				4EFAFD4261B1983A1412CA19 /* AppDelegate.swift */,
+				4EFAFBD2085A2DB81E8BDC8A /* Main.storyboard */,
+				4EFAF2A1CE453A7240CFFB8D /* ViewController.swift */,
+			);
+			path = "Image to Calendar Syncer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EFAF6993E9FC67B1D115CAE /* Image to Calendar SyncerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFAF99F900744BFC6801285 /* Build configuration list for PBXNativeTarget "Image to Calendar SyncerTests" */;
+			buildPhases = (
+				4EFAF9595E396FCF4863C6B2 /* Sources */,
+				4EFAFE9E532ACB5910B117A6 /* Frameworks */,
+				4EFAFFCC1AA92FA544FA0031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFAF5A516A648B92D67B0DD /* PBXTargetDependency */,
+			);
+			name = "Image to Calendar SyncerTests";
+			productName = "Image to Calendar SyncerTests";
+			productReference = 4EFAF69506722D15E71537F7 /* Image to Calendar SyncerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EFAFB51DFDABAD7CEF857B5 /* Image to Calendar Syncer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFAF3C7CD7D8A55243A6C65 /* Build configuration list for PBXNativeTarget "Image to Calendar Syncer" */;
+			buildPhases = (
+				4EFAFFDACA585D33EFB928C4 /* Sources */,
+				4EFAFBFAF4AF0495810904B0 /* Frameworks */,
+				4EFAFA8EF38876962EB26E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image to Calendar Syncer";
+			productName = "Image to Calendar Syncer";
+			productReference = 4EFAFCBD0007E31834A8C96E /* Image to Calendar Syncer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EFAFFC002FD173F8379898B /* Image to Calendar SyncerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFAF32D56A00D9F64558E2F /* Build configuration list for PBXNativeTarget "Image to Calendar SyncerUITests" */;
+			buildPhases = (
+				4EFAFA27A01B23E5AE358FB3 /* Sources */,
+				4EFAF0E96185E529D27EC536 /* Frameworks */,
+				4EFAF9F88DC0186D2C3072CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFAFD5D6E2F6E5399D30499 /* PBXTargetDependency */,
+			);
+			name = "Image to Calendar SyncerUITests";
+			productName = "Image to Calendar SyncerUITests";
+			productReference = 4EFAF1E550F92427F8CCF98A /* Image to Calendar SyncerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFAF5B01B42DBC090EF6B2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Vurdien-Bucher-Software";
+			};
+			buildConfigurationList = 4EFAF36EAC4EE34AD2415631 /* Build configuration list for PBXProject "Image to Calendar Syncer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EFAF9E9B64040EE38FA2479;
+			productRefGroup = 4EFAF8E697CA7A9FC0CD7301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFAFB51DFDABAD7CEF857B5 /* Image to Calendar Syncer */,
+				4EFAF6993E9FC67B1D115CAE /* Image to Calendar SyncerTests */,
+				4EFAFFC002FD173F8379898B /* Image to Calendar SyncerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFAF9F88DC0186D2C3072CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAFA8EF38876962EB26E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFAF990EC834B3772FC9E03 /* Assets.xcassets in Resources */,
+				4EFAFCFE4DEB8BD4A18B9309 /* LaunchScreen.storyboard in Resources */,
+				4EFAF364BD41EDCCB2F284E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAFFCC1AA92FA544FA0031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFAF9595E396FCF4863C6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFAFD6050F05737315F47A4 /* Image_to_Calendar_SyncerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAFA27A01B23E5AE358FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFAF797DA0B8C24A64F8428 /* Image_to_Calendar_SyncerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAFFDACA585D33EFB928C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFAF251C79081CD6F6FC532 /* AppDelegate.swift in Sources */,
+				4EFAF9EFCC6D4277322BE27E /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EFAF5A516A648B92D67B0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFAFB51DFDABAD7CEF857B5 /* Image to Calendar Syncer */;
+			targetProxy = 4EFAF6EE9D301DCD2501956D /* PBXContainerItemProxy */;
+		};
+		4EFAFD5D6E2F6E5399D30499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFAFB51DFDABAD7CEF857B5 /* Image to Calendar Syncer */;
+			targetProxy = 4EFAFE233B32D5CA69C1849D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFAF7CD2E79B18E40A7AA7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4EFAFBD2085A2DB81E8BDC8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFAFB997685DE86F295233C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EFAF0A4E2B91819AB4246AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EFAF1950041772635A4B471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Image to Calendar Syncer.app/Image to Calendar Syncer";
+				INFOPLIST_FILE = "Image to Calendar SyncerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VurdienBucher.Image-to-Calendar-SyncerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		4EFAF270B6AFDD79449602AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Image to Calendar SyncerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VurdienBucher.Image-to-Calendar-SyncerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Image to Calendar Syncer";
+			};
+			name = Release;
+		};
+		4EFAF3C7071C0CBFA12E0AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Image to Calendar SyncerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VurdienBucher.Image-to-Calendar-SyncerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Image to Calendar Syncer";
+			};
+			name = Debug;
+		};
+		4EFAF4DDBAE8FA0087DE49A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Image to Calendar Syncer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VurdienBucher.Image-to-Calendar-Syncer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EFAF9FB0ADAB53E1AB0827F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EFAFBC81BE80B3CACC92E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Image to Calendar Syncer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VurdienBucher.Image-to-Calendar-Syncer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EFAFFC9EF5CE66F157218F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Image to Calendar Syncer.app/Image to Calendar Syncer";
+				INFOPLIST_FILE = "Image to Calendar SyncerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VurdienBucher.Image-to-Calendar-SyncerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFAF32D56A00D9F64558E2F /* Build configuration list for PBXNativeTarget "Image to Calendar SyncerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFAF3C7071C0CBFA12E0AE4 /* Debug */,
+				4EFAF270B6AFDD79449602AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EFAF36EAC4EE34AD2415631 /* Build configuration list for PBXProject "Image to Calendar Syncer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFAF9FB0ADAB53E1AB0827F /* Debug */,
+				4EFAF0A4E2B91819AB4246AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFAF3C7CD7D8A55243A6C65 /* Build configuration list for PBXNativeTarget "Image to Calendar Syncer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFAFBC81BE80B3CACC92E0E /* Debug */,
+				4EFAF4DDBAE8FA0087DE49A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EFAF99F900744BFC6801285 /* Build configuration list for PBXNativeTarget "Image to Calendar SyncerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFAFFC9EF5CE66F157218F9 /* Debug */,
+				4EFAF1950041772635A4B471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EFAF5B01B42DBC090EF6B2D /* Project object */;
+}
