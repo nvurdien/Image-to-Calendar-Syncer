@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b65b7bc3-c271-481c-8aab-35fa10831d95" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/Image_to_Calendar_Syncer.iml" afterPath="$PROJECT_DIR$/.idea/Image_to_Calendar_Syncer.iml" />
-    </list>
+    <list default="true" id="b65b7bc3-c271-481c-8aab-35fa10831d95" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,12 +96,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517693273452</updated>
-      <workItem from="1517693275882" duration="176000" />
+      <workItem from="1517693275882" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176000" />
+    <option name="totallyTimeSpent" value="357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="42" width="1400" height="838" extended-state="0" />
