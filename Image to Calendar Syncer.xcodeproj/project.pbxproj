@@ -96,10 +96,10 @@
 		4EFAF9E9B64040EE38FA2479 = {
 			isa = PBXGroup;
 			children = (
-				4EFAF8E697CA7A9FC0CD7301 /* Products */,
 				4EFAFFA9EAF8C3CF7901CEF9 /* Image to Calendar Syncer */,
 				4EFAF877C074DDFBD476DEB3 /* Image to Calendar SyncerTests */,
 				4EFAFA5CBF8D77AD3419928C /* Image to Calendar SyncerUITests */,
+				4EFAF8E697CA7A9FC0CD7301 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,12 +115,12 @@
 		4EFAFFA9EAF8C3CF7901CEF9 /* Image to Calendar Syncer */ = {
 			isa = PBXGroup;
 			children = (
-				4EFAFABE504426654CC99429 /* Info.plist */,
-				4EFAF012639C6DDBB2368362 /* Assets.xcassets */,
 				4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */,
 				4EFAFD4261B1983A1412CA19 /* AppDelegate.swift */,
 				4EFAFBD2085A2DB81E8BDC8A /* Main.storyboard */,
 				4EFAF2A1CE453A7240CFFB8D /* ViewController.swift */,
+				4EFAFABE504426654CC99429 /* Info.plist */,
+				4EFAF012639C6DDBB2368362 /* Assets.xcassets */,
 			);
 			path = "Image to Calendar Syncer";
 			sourceTree = "<group>";
@@ -188,6 +188,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "Vurdien-Bucher-Software";
+				TargetAttributes = {
+					4EFAFB51DFDABAD7CEF857B5 = {
+						DevelopmentTeam = 7L4E88KXMX;
+					};
+				};
 			};
 			buildConfigurationList = 4EFAF36EAC4EE34AD2415631 /* Build configuration list for PBXProject "Image to Calendar Syncer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -390,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7L4E88KXMX;
 				INFOPLIST_FILE = "Image to Calendar Syncer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.VurdienBucher.Image-to-Calendar-Syncer";
@@ -460,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7L4E88KXMX;
 				INFOPLIST_FILE = "Image to Calendar Syncer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.VurdienBucher.Image-to-Calendar-Syncer";
@@ -493,6 +500,7 @@
 				4EFAF270B6AFDD79449602AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EFAF36EAC4EE34AD2415631 /* Build configuration list for PBXProject "Image to Calendar Syncer" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +518,7 @@
 				4EFAF4DDBAE8FA0087DE49A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EFAF99F900744BFC6801285 /* Build configuration list for PBXNativeTarget "Image to Calendar SyncerTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +527,7 @@
 				4EFAF1950041772635A4B471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

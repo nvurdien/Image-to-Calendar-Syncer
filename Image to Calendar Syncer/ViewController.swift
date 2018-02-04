@@ -7,10 +7,18 @@
 //
 
 import UIKit
+//
+//  ViewController.swift
+//  Image to Calendar Syncer
+//
+//  Created by Navie Vurdien on 2/3/18.
+//  Copyright © 2018 Vurdien-Bucher-Software. All rights reserved.
+//
 
+import UIKit
 
 class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -33,9 +41,10 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         // Place image picker on the screen
         present(imagePicker, animated: true, completion: nil)
     }
-
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 }
+
