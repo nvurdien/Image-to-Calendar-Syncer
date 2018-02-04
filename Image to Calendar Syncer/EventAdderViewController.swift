@@ -12,10 +12,24 @@ class EventAdderViewController: UIViewController {
 
     @IBOutlet weak var NavigationView: UIView!
     @IBOutlet weak var titleText: UITextView!
-    @IBOutlet weak var dateText: UITextField!
+    @IBOutlet weak var monthText: UITextField!
+    @IBOutlet weak var dayText: UITextField!
+    @IBOutlet weak var yearText: UITextField!
+    @IBOutlet weak var hourText: UITextField!
+    @IBOutlet weak var ampmText: UITextField!
     @IBOutlet weak var locationText: UITextView!
     @IBOutlet weak var nextOrOKButton: UIButton!
     
+    let monthOrHourPicker = UIPickerView()
+    let dayPicker = UIPickerView()
+    let yearPicker = UIPickerView()
+    let AMPMPicker = UIPickerView()
+    
+    var possibleHoursAndMonths = [1,2,3,4,5,6,7,8,9,10,11,12]
+    var possibleDays = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,
+                        18,19,20,21,22,23,24,25,26,27,28,29,30,31]
+    var possibleYears = arrayFromRange()
+    var possibleAMPM = ["AM", "PM"]
     var events = [Event]()
     var eventID: Int = 0
     var segueToMainVC: Bool = false
@@ -34,6 +48,26 @@ class EventAdderViewController: UIViewController {
         NavigationView.layer.cornerRadius = 15
         titleText.layer.cornerRadius = 15
         locationText.layer.cornerRadius = 15
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?
+    {
+        if pickerView == monthOrHourPicker {
+            return "\(possibleHoursAndMonths[row])"
+        } else if pickerView == dayPicker {
+            return "\(possibleDays[row])"
+        } else if pickerView == yearPicker {
+            return "\(possibleYears[row])"
+        } else if pickerView == AMPMPicker {
+            return "\(possibleAMPM[row])"
+        } else {
+            return "Error"
+        }
+    }
+    
+    func initializePickers() {
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -123,10 +157,20 @@ class EventAdderViewController: UIViewController {
     @IBAction func backgroundTapped(_ sender: UITapGestureRecognizer) {
         self.locationText.resignFirstResponder()
         self.titleText.resignFirstResponder()
-        self.dateText.resignFirstResponder()
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         return segueToMainVC
     }
+}
+
+func arrayFromRange() -> [Int] {
+    
+    var retVal = [Int]()
+    
+    for year in 1990...2050 {
+        retVal.append(year)
+    }
+    
+    return retVal
 }

@@ -129,8 +129,8 @@
 				05E0D1682026A6FA0054BE09 /* Extensions.swift */,
 				05E0D16420269CBC0054BE09 /* EventAdderViewController.swift */,
 				05E0D17F2026CEEA0054BE09 /* MainViewController.swift */,
-				4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */,
 				4EFAFBD2085A2DB81E8BDC8A /* Main.storyboard */,
+				4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */,
 				4EFAFABE504426654CC99429 /* Info.plist */,
 				4EFAF012639C6DDBB2368362 /* Assets.xcassets */,
 			);

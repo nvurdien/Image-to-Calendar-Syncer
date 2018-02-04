@@ -105,11 +105,12 @@ class MainViewController: UIViewController, UINavigationControllerDelegate, UIIm
     func processImage(image: UIImage?) -> [Event]? {
         
         var retVal = [Event]()
+        let myBirthday = determineDateFromComponents(month: 6, day: 12, year: 1994)
         
-        retVal.append(Event(location: "Hey boi", title: "Hey boi"))
-        retVal.append(Event(location: "Hey boi 2", title: "Hey boi 2"))
-        retVal.append(Event(location: "Hey boi 3", title: "Hey boi 3"))
-        retVal.append(Event(location: "Hey boi 4", title: "Hey boi 4"))
+        retVal.append(Event(location: "Hey boi", date: myBirthday, title: "Hey boi"))
+        retVal.append(Event(location: "Hey boi 2", date: myBirthday, title: "Hey boi 2"))
+        retVal.append(Event(location: "Hey boi 3", date: myBirthday, title: "Hey boi 3"))
+        retVal.append(Event(location: "Hey boi 4", date: myBirthday, title: "Hey boi 4"))
         
         events = retVal
         
