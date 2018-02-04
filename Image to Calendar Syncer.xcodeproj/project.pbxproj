@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05E0D16520269CBC0054BE09 /* EventAdderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D16420269CBC0054BE09 /* EventAdderViewController.swift */; };
+		05E0D16620269CBC0054BE09 /* EventAdderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D16420269CBC0054BE09 /* EventAdderViewController.swift */; };
+		05E0D16720269CBC0054BE09 /* EventAdderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D16420269CBC0054BE09 /* EventAdderViewController.swift */; };
+		05E0D1692026A6FA0054BE09 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D1682026A6FA0054BE09 /* Extensions.swift */; };
+		05E0D16A2026A6FA0054BE09 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D1682026A6FA0054BE09 /* Extensions.swift */; };
+		05E0D16B2026A6FA0054BE09 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D1682026A6FA0054BE09 /* Extensions.swift */; };
+		05E0D1802026CEEA0054BE09 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D17F2026CEEA0054BE09 /* MainViewController.swift */; };
+		05E0D1812026CEEA0054BE09 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D17F2026CEEA0054BE09 /* MainViewController.swift */; };
+		05E0D1822026CEEA0054BE09 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D17F2026CEEA0054BE09 /* MainViewController.swift */; };
 		4EFAF251C79081CD6F6FC532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAFD4261B1983A1412CA19 /* AppDelegate.swift */; };
 		4EFAF364BD41EDCCB2F284E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAFBD2085A2DB81E8BDC8A /* Main.storyboard */; };
 		4EFAF797DA0B8C24A64F8428 /* Image_to_Calendar_SyncerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAFD1D663281A67DB39F46 /* Image_to_Calendar_SyncerUITests.swift */; };
 		4EFAF990EC834B3772FC9E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAF012639C6DDBB2368362 /* Assets.xcassets */; };
-		4EFAF9EFCC6D4277322BE27E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAF2A1CE453A7240CFFB8D /* ViewController.swift */; };
 		4EFAFCFE4DEB8BD4A18B9309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */; };
 		4EFAFD6050F05737315F47A4 /* Image_to_Calendar_SyncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAFA591105DAEC4AB55E77 /* Image_to_Calendar_SyncerTests.swift */; };
 /* End PBXBuildFile section */
@@ -34,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E0D16420269CBC0054BE09 /* EventAdderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAdderViewController.swift; sourceTree = "<group>"; };
+		05E0D1682026A6FA0054BE09 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		05E0D17F2026CEEA0054BE09 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4EFAF012639C6DDBB2368362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EFAF1E550F92427F8CCF98A /* Image to Calendar SyncerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image to Calendar SyncerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EFAF2A1CE453A7240CFFB8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EFAF521F44CC55A24BEAC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4EFAF69506722D15E71537F7 /* Image to Calendar SyncerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image to Calendar SyncerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFAF7CD2E79B18E40A7AA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -115,10 +125,12 @@
 		4EFAFFA9EAF8C3CF7901CEF9 /* Image to Calendar Syncer */ = {
 			isa = PBXGroup;
 			children = (
-				4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */,
 				4EFAFD4261B1983A1412CA19 /* AppDelegate.swift */,
+				05E0D1682026A6FA0054BE09 /* Extensions.swift */,
+				05E0D16420269CBC0054BE09 /* EventAdderViewController.swift */,
+				05E0D17F2026CEEA0054BE09 /* MainViewController.swift */,
+				4EFAF94BF2136C1A3F983E02 /* LaunchScreen.storyboard */,
 				4EFAFBD2085A2DB81E8BDC8A /* Main.storyboard */,
-				4EFAF2A1CE453A7240CFFB8D /* ViewController.swift */,
 				4EFAFABE504426654CC99429 /* Info.plist */,
 				4EFAF012639C6DDBB2368362 /* Assets.xcassets */,
 			);
@@ -245,7 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E0D16620269CBC0054BE09 /* EventAdderViewController.swift in Sources */,
+				05E0D16A2026A6FA0054BE09 /* Extensions.swift in Sources */,
 				4EFAFD6050F05737315F47A4 /* Image_to_Calendar_SyncerTests.swift in Sources */,
+				05E0D1812026CEEA0054BE09 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E0D16720269CBC0054BE09 /* EventAdderViewController.swift in Sources */,
+				05E0D16B2026A6FA0054BE09 /* Extensions.swift in Sources */,
 				4EFAF797DA0B8C24A64F8428 /* Image_to_Calendar_SyncerUITests.swift in Sources */,
+				05E0D1822026CEEA0054BE09 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EFAF251C79081CD6F6FC532 /* AppDelegate.swift in Sources */,
-				4EFAF9EFCC6D4277322BE27E /* ViewController.swift in Sources */,
+				05E0D16520269CBC0054BE09 /* EventAdderViewController.swift in Sources */,
+				05E0D1692026A6FA0054BE09 /* Extensions.swift in Sources */,
+				05E0D1802026CEEA0054BE09 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

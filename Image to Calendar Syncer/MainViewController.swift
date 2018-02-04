@@ -15,16 +15,13 @@ import UIKit
 //  Copyright © 2018 Vurdien-Bucher-Software. All rights reserved.
 //
 
-struct Event {
-    var location: String
-    var title: String
-}
-
 import UIKit
 
-class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+class MainViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     @IBOutlet weak var capturedImage: UIImageView!
+    
+    var events: [Event]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +32,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         
         // When view appears, skip loading the image picker if there is a saved image
         if capturedImage.image == nil {
-        
+            
             let imagePicker = UIImagePickerController()
             
             // If the device has a camera, take a picture, otherwise,
@@ -50,16 +47,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
             
             // Place image picker on the screen
             present(imagePicker, animated: true, completion: nil)
-            print("Present 1")
         } else {
             
-            if let result = processImage(image: capturedImage.image) {
-            
-                for event in result {
-                    
-                    // Present a editable view
-                    
-                }
+            if let _ = processImage(image: capturedImage.image) {
+                
+                showEventAdderView()
             } else {
                 
                 let badImageAlert = UIAlertController(title: "Unable to parse an event from the photo.",
@@ -97,14 +89,13 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         
         // Get picked image from info dictionary
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
-
+        
         // Put that image onto the screen in our image view
         capturedImage.image = image
         
         // Take image picker off the screen -
         // you must call this dismiss method
         dismiss(animated: true, completion: nil)
-        print("Dismissal 1")
     }
     
     override func didReceiveMemoryWarning() {
@@ -113,8 +104,31 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     
     func processImage(image: UIImage?) -> [Event]? {
         
+        var retVal = [Event]()
         
-        return nil
+        retVal.append(Event(location: "Hey boi", title: "Hey boi"))
+        retVal.append(Event(location: "Hey boi 2", title: "Hey boi 2"))
+        retVal.append(Event(location: "Hey boi 3", title: "Hey boi 3"))
+        retVal.append(Event(location: "Hey boi 4", title: "Hey boi 4"))
+        
+        events = retVal
+        
+        return retVal
+        //return nil
+    }
+    
+    func showEventAdderView() {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        // Present the Event-Adder dialog above the taken image!
+        let eventAdder = storyboard.instantiateViewController(withIdentifier: "EventAdderVC") as! EventAdderViewController
+        eventAdder.modalTransitionStyle = .crossDissolve
+        eventAdder.modalPresentationStyle = .overCurrentContext
+        eventAdder.events = (self.events != nil) ? self.events! : [Event]()
+        
+        self.present(eventAdder, animated: true, completion: nil)
     }
 }
+
 
